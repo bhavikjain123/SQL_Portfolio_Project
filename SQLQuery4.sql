@@ -37,13 +37,13 @@
 
 --SELECT *
 --FROM Emp_newdetails
---INNER JOIN Emp_newsalary
+--INNER JOIN Emp_newsalary  --  gives the intersection of the two tables, i.e. the two rows they have in common.
 --ON EMP_newdetails.Emp_ID = Emp_newsalary.Emp_ID
 
---FULL OUTER JOIN Emp_newsalary
+--FULL OUTER JOIN Emp_newsalary --A full outer join will give you the union of A and B
 --ON Emp_newdetails.Emp_ID = Emp_newsalary.Emp_ID
 
---LEFT OUTER JOIN Emp_newsalary
+--LEFT OUTER JOIN Emp_newsalary --A left outer join will give all rows in A, plus any common rows in B.
 --ON Emp_newdetails.Emp_ID = Emp_newsalary.Emp_ID
 
 --RIGHT OUTER JOIN Emp_newsalary
